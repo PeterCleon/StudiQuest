@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Symfony\Component\HttpFoundation\Response;
+
+class StudentMiddleware
+{
+    public function handle(Request $request, Closure $next): Response
+    {
+        if (Auth::check() && Auth::user()->role === 'siswa') {
+            return $next($request);
+        }
+
+        return redirect()->route('teacher.dashboard')->with('error', 'Akses hanya untuk siswa.');
+    }
+}
