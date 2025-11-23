@@ -43,9 +43,11 @@
           <h1 class="font-heading text-6xl font-extrabold mb-4">StudyQuest</h1>
           <p class="text-2xl opacity-80">Daftar dan mulai perjalanan belajarmu!</p>
           
-          <div class="mt-12 w-full max-w-lg mx-auto">
-              <div class="bg-purple-800/30 h-64 rounded-2xl flex items-center justify-center border border-white/20">
-                  <span class="text-white/80 italic text-lg">Area Animasi Gamifikasi/Ilustrasi</span>
+          <div class="mt-12 w-full max-w-lg mx-auto flex justify-center">
+              <div class="bg-purple-800/30 h-64 w-64 rounded-2xl flex items-center justify-center border border-white/20">
+                <video autoplay muted loop playsinline class="inset-0 h-[200px] object-cover">
+                    <source src="{{ asset('videos/test.mp4') }}" type="video/mp4">
+                </video>
               </div>
           </div>
       </div>
