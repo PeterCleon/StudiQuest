@@ -49,7 +49,7 @@ Aplikasi Quiz Edukasi berbasis Laravel dengan sistem gamifikasi untuk meningkatk
 ## 📥 Instalasi
 
 ### 1. Clone Repository
-- ```bash
+```bash
 git clone https://github.com/PeterCleon/StudiQuest.git
 cd StudiQuest
 composer install
@@ -63,7 +63,8 @@ DB_DATABASE=studyquest
 DB_USERNAME=root
 DB_PASSWORD=
 php artisan migrate
-php artisan storage:link
+php artisan storage:link 
+```
 
 ## 📄 Lisensi
 Distributed under the MIT License.
