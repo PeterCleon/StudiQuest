@@ -41,9 +41,8 @@ Aplikasi Quiz Edukasi berbasis Laravel dengan sistem gamifikasi untuk meningkatk
 ## 🛠️ Teknologi
 
 - **Backend:** Laravel 11
-- **Frontend:** Tailwind CSS, Alpine.js
+- **Frontend:** Tailwind CSS
 - **Database:** MySQL
-- **Auth:** Laravel Breeze
 - **Storage:** Laravel Filesystem
 
 ## 📥 Instalasi
